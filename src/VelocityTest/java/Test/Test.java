@@ -16,7 +16,10 @@ public class Test {
         LoginPage LoginTest = new LoginPage(driver);
         LoginTest.Login("test@codeword.tech", "hello@123");
        // driver.findElement(By.xpath("//p[text()='Campaigns']")).click();
+        var date=driver.findElement(By.className("mt-3")).getText();
+        System.out.println(date);
         driver.findElement(By.id("headlessui-menu-button-:R34p:")).click();
         driver.findElement(By.xpath("//a[text()='Logout']")).click();
+
     }
 }
