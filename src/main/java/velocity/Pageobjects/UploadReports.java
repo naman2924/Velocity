@@ -1,14 +1,16 @@
 package velocity.Pageobjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import velocity.CommonFunctions.CommonFunctions;
 
 public class UploadReports {
     WebDriver driver;
 
-    public UploadReports(WebDriver driver) {
+    public UploadReports() {
         this.driver = driver;
         PageFactory.initElements(driver, this);
 
@@ -31,4 +33,14 @@ public class UploadReports {
 
     @FindBy(xpath = "//button[text()='Submit']")
     WebElement submitButton;
+
+    By submit= By.xpath("//button[text()='Submit']");
+    public void uploadFileTest() {
+        CommonFunctions call= new CommonFunctions();
+        call.OpenUrl("https://velocity-48mzf.ondigitalocean.app/upload-reports");
+        call.dropdown(selectOrganization, 1);
+        dateSelector.sendKeys("23032023");
+        uploadFile.sendKeys("D:\\SND\\Policy.pdf");
+        call.elementToBeClickable(15,submit );
+    }
 }

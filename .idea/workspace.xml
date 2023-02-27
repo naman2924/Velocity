@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a04e8503-d5b9-41db-a399-7c85facc567b" name="Changes" comment="new">
+    <list default="true" id="a04e8503-d5b9-41db-a399-7c85facc567b" name="Changes" comment="24 feb">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VelocityTest/java/Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VelocityTest/java/Test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VelocityTest/java/Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VelocityTest/java/Test/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VelocityTest/java/Test/TestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VelocityTest/java/Test/TestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VelocityTest/java/VelocityTest/TestComponent/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VelocityTest/java/VelocityTest/TestComponent/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/velocity/CommonFunctions/CommonFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/velocity/CommonFunctions/CommonFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/velocity/Pageobjects/Logout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/velocity/Pageobjects/Logout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/velocity/Pageobjects/UploadReports.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/velocity/Pageobjects/UploadReports.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +44,9 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Test" />
+  <component name="RunManager" selected="Application.TestCases">
+    <configuration name="TestCases" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.TestCases" />
       <module name="Velocity" />
       <extension name="coverage">
         <pattern>
@@ -53,9 +58,85 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test1.Naman2 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Velocity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.Test1" />
+      <option name="METHOD_NAME" value="Naman2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1.Naman2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Velocity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.Test1" />
+      <option name="METHOD_NAME" value="Naman2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCases.UploadReportsTestcase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Velocity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TestCases" />
+      <option name="METHOD_NAME" value="UploadReportsTestcase" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCases.ne" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Velocity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TestCases" />
+      <option name="METHOD_NAME" value="ne" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TestCases" />
+        <item itemvalue="TestNG.TestCases.ne" />
+        <item itemvalue="TestNG.TestCases.UploadReportsTestcase" />
+        <item itemvalue="TestNG.Test1.Naman2" />
+        <item itemvalue="TestNG.Test1.Naman2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -82,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677233056868</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new">
+      <created>1677247833101</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677247833101</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

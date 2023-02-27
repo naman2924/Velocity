@@ -18,6 +18,7 @@ public class BaseTest {
         WebDriver driver = new ChromeDriver();
     }
 
+
     FileInputStream fis= new FileInputStream("C:\\Users\\Lenovo\\IdeaProjects\\Velocity\\src\\main\\java\\velocity\\Resources\\Global\\GlobalData.Properties");
 
 
