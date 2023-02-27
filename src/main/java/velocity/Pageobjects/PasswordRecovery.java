@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import velocity.CommonFunctions.CommonFunctions;
 
-public class PasswordRecovery extends CommonFunctions {
+public class PasswordRecovery  {
     WebDriver driver;
 
     public PasswordRecovery(WebDriver driver) {
