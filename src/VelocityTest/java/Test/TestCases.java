@@ -9,9 +9,12 @@ import velocity.Pageobjects.UploadReports;
 
 import java.io.FileNotFoundException;
 
-public class TestCases {
+public class TestCases extends BaseTest {
 
-    public static void main(String[] args) {
+    @Test
+    public void reportsTest{
+        BaseTest n=new BaseTest();
+        n.brow();
         UploadReports m = new UploadReports();
         m.uploadFileTest();
     }

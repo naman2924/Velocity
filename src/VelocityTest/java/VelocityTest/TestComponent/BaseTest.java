@@ -12,15 +12,16 @@ import java.util.Properties;
 public class BaseTest {
     public WebDriver driver;
 
-    public BaseTest() throws FileNotFoundException {
-    }
 
     public void initializeDriver() {
         driver = new ChromeDriver();
     }
 
-
+return driver;
     //FileInputStream fis = new FileInputStream("C:\\Users\\Lenovo\\IdeaProjects\\Velocity\\src\\main\\java\\velocity\\Resources\\Global\\GlobalData.Properties");
 
+    public void brow() {
+        driver = initializeDriver();
 
+    }
 }
