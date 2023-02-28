@@ -4,11 +4,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import velocity.CommonFunctions.CommonFunctions;
 
-public class AccountAndBilling {
+public class AccountAndBilling extends CommonFunctions {
     WebDriver driver;
 
     public AccountAndBilling(WebDriver driver) {
+        super(driver);
         this.driver = driver;
         PageFactory.initElements(driver, this);
 

@@ -12,15 +12,14 @@ import java.io.FileNotFoundException;
 public class TestCases extends BaseTest {
 
     @Test
-    public void reportsTest{
-        BaseTest n=new BaseTest();
-        n.brow();
-        UploadReports m = new UploadReports();
+    public void nd() throws InterruptedException {
+brow();
+        UploadReports m = new UploadReports(driver);
         m.uploadFileTest();
     }
-
-
 }
+
+
 
 
 
