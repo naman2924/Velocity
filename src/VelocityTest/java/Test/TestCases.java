@@ -13,10 +13,11 @@ public class TestCases extends BaseTest {
 
     @Test
     public void nd() throws InterruptedException {
-brow();
+        brow();
         UploadReports m = new UploadReports(driver);
         m.uploadFileTest();
     }
+
 }
 
 

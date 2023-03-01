@@ -23,7 +23,7 @@ public class BaseTest  {
 
     public void brow() {
         driver = initializeDriver();
-        driver.get("https://velocity-48mzf.ondigitalocean.app/upload-reports");
+        driver.get("https://velocity-48mzf.ondigitalocean.app/login");
 
 
     }

@@ -47,8 +47,5 @@ public class UploadReports extends CommonFunctions {
         uploadFile.sendKeys("D:\\SND\\Policy.pdf");
         elementToBeClickable(15, submit);
         submitButton.click();
-        implicitWait(20);
-        driver.get("https://velocity-48mzf.ondigitalocean.app/reports/weekly");
-
-}
-}
+   }
+   }
